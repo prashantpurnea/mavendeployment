@@ -16,7 +16,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-(payload reduce ($ + $$))]]></ee:set-payload>
+payload reduce ($ + $$)]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="6a2f38a8-bb46-425c-98c7-0a043d34f48b" message="#[payload]"/>
