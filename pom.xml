@@ -6,7 +6,7 @@
 	<artifactId>mavendeploymeny</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
-        <!--  new addition -->
+	<!--  new addition -->
 	<name>mavendeployment</name>
 
 	<properties>
@@ -31,6 +31,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
+					    <uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
 						<username>pkr1234</username>
 						<password>Light@1234</password>
@@ -42,6 +43,7 @@
 							<key>value</key>
 						</properties>
 					</cloudHubDeployment>
+					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
