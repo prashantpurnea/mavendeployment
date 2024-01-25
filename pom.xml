@@ -36,7 +36,7 @@
 						<username>pkr1234</username>
 						<password>Light@1234</password>
 						<environment>Sandbox</environment>
-						<applicationName>mavendeployment</applicationName>
+						<applicationName>mavendeploymentpipeline</applicationName>
 						<workerType>micro</workerType>
 						<workers>1</workers>
 						<properties>
