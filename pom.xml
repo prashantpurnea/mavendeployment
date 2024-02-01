@@ -40,7 +40,8 @@
 						<workerType>micro</workerType>
 						<workers>1</workers>
 						<properties>
-							<key>value</key>
+							<secure-property key="anypoint.username" value="${anypoint.username}" />
+                            <secure-property key="anypoint.password" value="${anypoint.password}" />
 						</properties>
 					</cloudHubDeployment>
 					<classifier>mule-application</classifier>
